@@ -2,7 +2,7 @@
 
 git clone https://github.com/MasMendoza/LoopEval
 
-cd playwright-eval
+cd LoopEval
 
 
 ## Install dependencies
