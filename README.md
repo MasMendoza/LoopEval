@@ -1,4 +1,4 @@
-## Clone and go to the
+## Clone and change directories
 
 git clone https://github.com/[your-repo]/playwright-eval.git
 
