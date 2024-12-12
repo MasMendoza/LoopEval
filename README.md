@@ -13,3 +13,15 @@ Automated test suite for the task management system using Playwright.
 ```bash
 git clone [your-repository-url]
 cd [repository-name]
+
+# Install dependencies
+npm install
+
+# Install browsers
+npx playwright install
+
+# Run tests
+npm test
+
+# View HTML report
+npx playwright show-report
