@@ -14,7 +14,7 @@ npm install @playwright/test typescript
 npx playwright install
 
 
-## Run and view the HRML report
+## Run and view the HTML report
 
 npx playwright test --reporter=html
 
