@@ -1,6 +1,6 @@
 ## Clone and change directories
 
-git clone https://github.com/[your-repo]/playwright-eval.git
+git clone https://github.com/MasMendoza/LoopEval
 
 cd playwright-eval
 
