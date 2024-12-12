@@ -1,30 +1,12 @@
-# Task Management System Tests
+## Clone and go to the
+git clone https://github.com/[your-repo]/playwright-eval.git
+cd playwright-eval
 
-Automated test suite for the task management system using Playwright.
-
-## Prerequisites
-
-- Node.js (v14 or higher)
-- npm (comes with Node.js)
-
-## Setup Instructions
-
-1. Clone the repository:
-```bash
-git clone https://github.com/MasMendoza/LoopEval.git
-cd LoopEval
-
-# Install dependencies
-npm install
-
-# Install Playwright globally
-npm install -g playwright
-
-# Install browsers
+## Install dependencies
+npm init -y
+npm install @playwright/test typescript
 npx playwright install
 
-# Run tests
-npx playwright test
-
-# View HTML report
-npx playwright show-repor
+## Run and view the HRML report
+npx playwright test --reporter=html
+npx playwright show-report
