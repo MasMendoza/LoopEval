@@ -11,17 +11,20 @@ Automated test suite for the task management system using Playwright.
 
 1. Clone the repository:
 ```bash
-git clone [your-repository-url]
-cd [repository-name]
+git clone https://github.com/MasMendoza/LoopEval.git
+cd LoopEval
 
 # Install dependencies
 npm install
+
+# Install Playwright globally
+npm install -g playwright
 
 # Install browsers
 npx playwright install
 
 # Run tests
-npm test
+npx playwright test
 
 # View HTML report
-npx playwright show-report
+npx playwright show-repor
